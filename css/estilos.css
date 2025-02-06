@@ -1,0 +1,229 @@
+body {
+    background-image: url(../imagens/fundo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100vh;
+    
+}
+
+.abas {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.abas a {
+    text-decoration: none;
+    font-size: 50px;
+    color: goldenrod
+    
+}
+
+.abas a:hover {
+    color: green;
+}
+
+.logo img {
+    width: 100%;
+    height: 300px;
+}
+
+.titulo {
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+
+}
+
+.resumo h3 {
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+
+.resumo p {
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 60px;
+    
+}
+
+.facebook img {
+    width: 90px;
+    height: 90px;
+}
+
+.instagram img {
+    width: 90px;
+    height: 90px;
+}
+
+.whats img {
+    width: 90px;
+    height: 90px;
+}
+
+.email img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+    
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: white;
+}
+
+.facebook p:hover, .instagram p:hover, .email p:hover, .whats p:hover{
+    color: green;
+}
+
+
+.adress {
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    background-color: white;
+
+}
+
+.container p {
+    padding: 5px;
+    color: brown;
+}
+
+
+/* aba historia */
+.story_title {
+    color: goldenrod;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.story_text {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+/* aba missão */
+
+.mission_title {
+    color: goldenrod;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.mission_text {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* aba projeto */
+
+.imagem_project {
+    width: 600px;
+    height: 600px;
+}
+
+ .projects_title {
+    color: goldenrod;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 30px;
+ }
+
+ .texto_project {
+    color: white;
+    font-size: 30px;
+ }
+
+
+
+ .acao {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .acao.selecionada {
+    opacity: 1;
+    z-index: 1;
+ }
+
+ .acoes {
+    position: relative;
+    width: 700px;
+    height: 900px;
+ }
+
+ .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+    
+ }
+
+ .btn-seta {
+    background-color: #ffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+ }
+
+ .btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+ }
+
+ .btn-seta:hover {
+    background-color: green;
+ }
+
+ 
